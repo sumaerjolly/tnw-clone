@@ -68,3 +68,17 @@
     width: 500px;
     height: 500px;
 }
+
+/* Mobile Display Starts Here */
+
+
+.nav-1 , .nav-2, .nav-2-right{
+    display: none;
+}
+
+.mobile-logo-image{
+    /* background:linear-gradient(to bottom right , rgb(215,59,113), rgb(236,64,52)); */
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
