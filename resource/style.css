@@ -1,18 +1,4 @@
-.section-a-1 {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(165, 24, 24, 0.65)), color-stop(59%, rgba(160, 28, 28, 0.5)), color-stop(100%, rgba(165, 24, 24, 0))), url('../resource/images/tnw-livestream.jpg') no-repeat;
-    max-width: 50%;
-    height: 300px;
-}
 
-.section-a-2 {
-    background: url('../resource/images/conference.jpg') no-repeat;
-    height: 300px;
-}
-
-.section-a-3 {
-    background: url('../resource/images/bumble-founder.jpg') no-repeat;
-    height: 300px;
-}
 
 
 /* .section-b-main-div {
@@ -167,4 +153,81 @@
     padding: 10px 0 10px 0;
     z-index: 9;
     vertical-align: middle;
+}
+
+/* Headline Section Starts here */
+
+.section-a{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 270px 270px;
+    grid-template-areas: 
+    "a b"
+    "a c" ;
+    grid-gap: 10px;
+}
+
+.section-a-1 {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(165, 24, 24, 1)), color-stop(59%, rgba(160, 28, 28, 0.5)), color-stop(100%, rgba(165, 24, 24, 0))), url('../resource/images/tnw-livestream.jpg') no-repeat;
+    grid-area: a;
+    background-size: cover;
+    padding: 20px;
+}
+
+.section-a-2 {
+    background: url('../resource/images/conference.jpg') no-repeat;
+    grid-area: b;
+    background-size: cover;
+    
+}
+
+.section-a-3 {
+    background: url('../resource/images/bumble-black.jpg') no-repeat;
+    grid-area: c;
+    background-size: cover;
+}
+
+#resize{
+    width: 500px;
+    height: 200px;
+    padding-bottom: 100px;
+
+}
+
+.insights{
+    color: white;
+    font-size: 20px;
+}
+
+.section-a-1 h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 10px;
+    line-height: 1.1;
+}
+.written-by{
+    color: rgb(148, 148, 148);
+    padding-top: 10px;
+}
+
+.space-image{
+    padding-left: 10px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.section-a-2, .section-a-3 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.section-a-2 h1, .section-a-3 h1{
+    color: white;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
 }
