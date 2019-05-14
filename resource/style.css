@@ -102,7 +102,7 @@
 
 .logo-top img {
     width: 70px;
-    height: 35px;
+    height: 55px;
     padding: 10px 0 10px 0;
     z-index: 9;
     vertical-align: middle;
@@ -110,6 +110,9 @@
 
 
 /* Headline Section Starts here */
+
+
+/* first section */
 
 .section-a {
     display: grid;
@@ -185,6 +188,9 @@
     font-weight: bold;
 }
 
+
+/* the second section starts herer "section b" */
+
 .section-b {
     padding-top: 60px;
 }
@@ -202,6 +208,10 @@
     grid-template-rows: 200px 200px;
     grid-column-gap: 25px;
     grid-row-gap: 30px;
+}
+
+.section-b-main-div img {
+    max-width: 100%;
 }
 
 .heading-style {
@@ -249,6 +259,9 @@
 
 /* Funding Section Starts here */
 
+
+/* section 3 */
+
 .section-c {
     padding-top: 60px;
 }
@@ -283,8 +296,15 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 25px;
+    grid-gap: 20px;
     width: 80%;
+}
+
+.funding-1 img,
+.funding-2 img,
+.funding-3 img,
+.funding-4 img {
+    max-width: 100%;
 }
 
 .section-c-2 p {
@@ -315,6 +335,9 @@
     border-top: solid 1px rgb(247, 197, 189);
 }
 
+
+/* section four 4 starts here  */
+
 .section-d {
     padding: 50px 0 0 0;
 }
@@ -326,8 +349,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 700px 700px 700px;
     grid-gap: 20px;
-    justify-content: end;
 }
+
+
+/* section 4 background images for eight divs */
 
 .headline-1 {
     background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline1.png') no-repeat;
@@ -362,7 +387,6 @@
     padding: 10px
 }
 
-
 .headline-4 {
     background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline4.png') no-repeat;
     background-size: cover;
@@ -372,7 +396,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 10px
-
 }
 
 .headline-5 {
@@ -418,82 +441,77 @@
     align-items: flex-start;
     padding: 10px
 }
-.headline-1 h1 , .headline-2 h1 , .headline-3 h1 , .headline-4 h1 ,
-.headline-5 h1 , .headline-6 h1, .headline-7 h1, .headline-8 h1 {
-    color:white;
+
+.headline-1 h1,
+.headline-2 h1,
+.headline-3 h1,
+.headline-4 h1,
+.headline-5 h1,
+.headline-6 h1,
+.headline-7 h1,
+.headline-8 h1 {
+    color: white;
     font-weight: bolder;
     font-size: 22px;
     line-height: 1.2;
 }
 
-.headlines h2{
+.headlines h2 {
     color: white;
     font-size: 14px;
     line-height: 1.5;
 }
 
-.writer{
+.writer {
     color: rgb(156, 156, 156);
     line-height: 1.5;
     font-size: 12px;
 }
 
-.headline-1-content{
+.headline-1-content {
     display: block;
 }
 
-.latest-image img{
+.latest-image img {
     float: right;
     max-height: 100%;
 }
 
-.latest-image{
+.latest-image {
     background-color: rgb(253, 242, 241);
     height: 99px;
     padding-top: 5px;
 }
 
-
-.latest-image p{
+.latest-image p {
     padding: 0 0 0 10px;
     color: rgb(237, 64, 51);
     font-weight: bold;
     line-height: 1.2;
 }
-.latest-image .latest1{
+
+.latest-image .latest1 {
     padding: 10px 0 5px 10px;
     font-weight: 400;
     font-size: 14px;
 }
-/* .sub-pointers ul {
-    list-style: none;
-} */
-/* .sub-pointers li::before {
-    content: "▪"; 
-    color: red;
-    left: 0;
-    width: 14px;
-} */
 
-.sub-pointers ul li{
+.sub-pointers ul li {
     list-style-position: outside;
     list-style: square;
     color: red;
     margin: 1em;
-    border-bottom: 1px solid rgb(238,238,238);
+    border-bottom: 1px solid rgb(238, 238, 238);
     padding-bottom: 5px;
 }
 
-.sub-pointers ul li a{
+.sub-pointers ul li a {
     color: rgb(85, 85, 85);
     text-decoration: none;
     line-height: 1.2;
     font-size: 14px;
- 
 }
-.sub-pointers ul li a:hover{
+
+.sub-pointers ul li a:hover {
     color: black;
 }
-
-
-
