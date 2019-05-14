@@ -330,63 +330,163 @@
 }
 
 .headline-1 {
-    background: url('../resource/images/headline1.png') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline1.png') no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px
 }
 
 .headline-2 {
-    background: url('../resource/images/headline2.png') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline2.png') no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px
 }
 
 .headline-3 {
-    background: url('../resource/images/headline3.png') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline3.png') no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px
 }
 
+
 .headline-4 {
-    background: url('../resource/images/headline4.png') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline4.png') no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px
+
 }
 
 .headline-5 {
-    background: url('../resource/images/headline5.png') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline5.png') no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px
 }
 
 .headline-6 {
-    background: url('../resource/images/headline6.png') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline6.png') no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px
 }
 
 .headline-7 {
-    background: url('../resource/images/headline7.png') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline7.png') no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px
 }
 
 .headline-8 {
-    background: url('../resource/images/headline8.png') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/headline8.png') no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px
+}
+.headlines h1 {
+    color:white;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 1.2;
 }
 
-.main-headline-1 {}
+.headlines h2{
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}
 
-.main-headline-2 {}
+.writer{
+    color: rgb(156, 156, 156);
+    line-height: 1.5;
+    font-size: 12px;
+}
 
-.main-headline-3 {}
+.headline-1-content{
+    display: block;
+}
+
+.latest-image img{
+    float: right;
+    max-height: 100%;
+}
+
+.latest-image{
+    background-color: rgb(253, 242, 241);
+    height: 99px;
+    padding-top: 5px;
+}
+
+
+.latest-image p{
+    padding: 0 0 0 10px;
+    color: rgb(237, 64, 51);
+    font-weight: bold;
+    line-height: 1.2;
+}
+.latest-image .latest1{
+    padding: 10px 0 5px 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* .sub-pointers ul {
+    list-style: none;
+} */
+/* .sub-pointers li::before {
+    content: "▪"; 
+    color: red;
+    left: 0;
+    width: 14px;
+} */
+
+
+.sub-pointers{
+    background-color: yellow;
+    
+}
+.sub-pointers ul li{
+    list-style-position: outside;
+    list-style: square;
+    color: red;
+    margin: 1em;
+}
+
+.sub-pointers ul li a{
+    color: black;
+    text-decoration: none;
+}
