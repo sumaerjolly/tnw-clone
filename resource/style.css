@@ -418,7 +418,8 @@
     align-items: flex-start;
     padding: 10px
 }
-.headlines h1 {
+.headline-1 h1 , .headline-2 h1 , .headline-3 h1 , .headline-4 h1 ,
+.headline-5 h1 , .headline-6 h1, .headline-7 h1, .headline-8 h1 {
     color:white;
     font-weight: bolder;
     font-size: 22px;
@@ -474,19 +475,25 @@
     width: 14px;
 } */
 
-
-.sub-pointers{
-    background-color: yellow;
-    
-}
 .sub-pointers ul li{
     list-style-position: outside;
     list-style: square;
     color: red;
     margin: 1em;
+    border-bottom: 1px solid rgb(238,238,238);
+    padding-bottom: 5px;
 }
 
 .sub-pointers ul li a{
-    color: black;
+    color: rgb(85, 85, 85);
     text-decoration: none;
+    line-height: 1.2;
+    font-size: 14px;
+ 
 }
+.sub-pointers ul li a:hover{
+    color: black;
+}
+
+
+
