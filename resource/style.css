@@ -518,28 +518,28 @@
 
 
 /* Section 5 Starts here  */
+
 .section-e {
     padding-top: 60px;
 }
 
-.section-e-header{
+.section-e-header {
     width: 80%;
     margin: 0 auto;
-   
 }
 
-.section-e-header a:last-of-type{
+.section-e-header a:last-of-type {
     float: right;
     color: rgb(237, 64, 51);
     text-decoration: none;
     font-size: 18px;
-   
 }
-.section-e-header a:last-of-type:hover{
+
+.section-e-header a:last-of-type:hover {
     color: black;
 }
 
-.latest-main{
+.latest-main {
     display: grid;
     margin: 0 auto;
     max-width: 80%;
@@ -549,26 +549,104 @@
     grid-row-gap: 40px;
     padding: 30px 0 100px 0;
 }
+
 .latest-main img {
     max-width: 100%;
 }
 
-.latest-main p{
+.latest-main p {
     padding-top: 5px;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.2;
 }
 
-.latest-main .offer-price{
+.latest-main .offer-price {
     padding: 5px 0 0 0;
     font-weight: normal;
     font-size: 16px;
     color: rgb(58, 58, 58);
 }
-.latest-main .offer-price span{
+
+.latest-main .offer-price span {
     text-decoration: line-through;
     padding-right: 5px;
     font-size: 14px;
     color: rgb(85, 85, 85);
+}
+
+.first-footer {
+    background-color: rgb(19, 19, 19);
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer1 {}
+
+.first-footer-a {
+    margin-top: 20px;
+}
+
+.first-footer-a a {
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.first-footer-a a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer1 img {
+    /* border: 1px solid; */
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    padding: 10px;
+    float: center;
+    height: 40px;
+}
+
+.footer1 a {
+    padding-right: 12px;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.footer1 img:hover {
+    background-color: rgb(19, 19, 19);
+    cursor: pointer;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.second-footer {
+    background-color: black;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    color: rgb(159, 159, 159);
+}
+
+.second-footer span {
+    color: red;
+    font-size: 12px;
+}
+
+.second-footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.second-footer a img {
+    vertical-align: middle;
 }
