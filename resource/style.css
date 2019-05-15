@@ -490,7 +490,7 @@
     line-height: 1.2;
 }
 
-.latest-image .latest1 {
+.latest-image .latest-news {
     padding: 10px 0 5px 10px;
     font-weight: 400;
     font-size: 14px;
@@ -514,4 +514,61 @@
 
 .sub-pointers ul li a:hover {
     color: black;
+}
+
+
+/* Section 5 Starts here  */
+.section-e {
+    padding-top: 60px;
+}
+
+.section-e-header{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.section-e-header a:last-of-type{
+    float: right;
+    color: rgb(237, 64, 51);
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+.section-e-header a:last-of-type:hover{
+    color: black;
+}
+
+.latest-main{
+    display: grid;
+    margin: 0 auto;
+    max-width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px 250px;
+    grid-column-gap: 25px;
+    grid-row-gap: 40px;
+    padding: 30px 0 100px 0;
+}
+.latest-main img {
+    max-width: 100%;
+}
+
+.latest-main p{
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.latest-main .offer-price{
+    padding: 5px 0 0 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+}
+.latest-main .offer-price span{
+    text-decoration: line-through;
+    padding-right: 5px;
+    font-size: 14px;
+    color: rgb(85, 85, 85);
 }
