@@ -136,13 +136,13 @@
 }
 
 .section-a-2 {
-    background: url('../resource/images/conference.jpg') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/conference.jpg') no-repeat;
     grid-area: b;
     background-size: cover;
 }
 
 .section-a-3 {
-    background: url('../resource/images/bumble-black.jpg') no-repeat;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/bumble-black.jpg') no-repeat;
     grid-area: c;
     background-size: cover;
 }
@@ -794,4 +794,82 @@
         text-align: center;
         padding-left: 0;
     }
+    .section-a {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 250px 250px;
+        grid-template-areas: 
+        "a"
+        "b"
+        "c";
+
+        grid-gap: 10px;
+        width: 97% ; 
+    }
+
+    .section-a .insights{
+        font-size: 16px;
+    }
+
+    .section-a-1 h1{
+        font-size: 24px;
+    }
+    .section-b-main-div {
+        display: grid;
+        margin: 0 auto;
+        width: 95%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 30px;
+    }
+
+     .section-b-main-div img{
+        height: 100px;
+        width: 200px;
+        float: left;
+        padding-right: 10px;
+     }
+     .section-c-2 {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+        width: 95%;
+    }
+
+    .section-c-1{
+        display: grid;
+    }
+    .section-c-1 .small-info{
+        display: grid;
+        line-height: 2.0;
+        
+        
+    }
+    .section-c-1 .heading-style{
+        padding-bottom: 0;
+    }
+    .funding-resize{
+        width: 700px;
+        height: 150px;
+    }
+    .headlines {
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+    .headline-1 ,.headline-2 , .headline-3 , .headline-4 ,
+     .headline-5 , .headline-6 , .headline-7 ,.headline-8 {
+        height: 450px;
+    }
+    
+    
+    
+    
+
+    
 }
