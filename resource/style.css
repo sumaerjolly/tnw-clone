@@ -11,8 +11,6 @@
     box-sizing: border-box;
 }
 
-.nav-bar {}
-
 .nav-1 {
     background-color: black;
     color: whitesmoke;
@@ -60,7 +58,11 @@
     height: 16px;
 }
 
-.hide-menu {
+.show-menu {
+    display: none;
+}
+
+.second-menu {
     display: none;
 }
 
@@ -69,7 +71,7 @@
     color: gray;
 }
 
-.search-icon{
+.search-icon {
     display: none;
 }
 
@@ -655,12 +657,14 @@
     vertical-align: middle;
 }
 
+
 /* Media Query for 1200px */
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1200px) {
     .nav-2-right {
         display: none;
     }
-    .search-icon{
+    .search-icon {
         display: inline;
         float: right;
         border-left: 1px solid lightgray;
@@ -670,15 +674,43 @@
 
 
 /* Media Query for 1020px */
-@media only screen and (max-width: 1020px){
+
+@media only screen and (max-width: 1020px) {
+    .section-a-1 #resize {
+        display: none;
+    }
+    .section-a-1 {
+        background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgba(25, 25, 25, 1)), color-stop(59%, rgba(25, 25, 25, 0.5)), color-stop(100%, rgba(25, 24, 24, 0))), url('../resource/images/tnw-livestream.jpg') no-repeat;
+        grid-area: a;
+        background-size: cover;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .section-a {
+        width: 97%;
+        margin: 0 auto;
+    }
+    .section-a-1 h1 {
+        font-size: 40px;
+    }
+    .section-b .heading-style {
+        width: 95%;
+    }
     .section-b-main-div {
         display: grid;
         margin: 0 auto;
-        width: 80%;
+        width: 95%;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         grid-column-gap: 25px;
         grid-row-gap: 30px;
+    }
+    .section-c-1 {
+        width: 95%;
     }
     .section-c-2 {
         margin: 0 auto;
@@ -686,10 +718,10 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         grid-gap: 20px;
-        width: 80%;
+        width: 95%;
     }
     .headlines {
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -699,21 +731,67 @@
     .latest-main {
         display: grid;
         margin: 0 auto;
-        max-width: 80%;
+        max-width: 95%;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         grid-column-gap: 25px;
         grid-row-gap: 40px;
         padding: 30px 0 100px 0;
     }
-
-    .section-c-1 .heading-style{
+    .section-c-1 .heading-style {
         font-size: 26px;
     }
-
-
-
+    .section-e-header {
+        width: 95%;
+    }
 }
 
 
+/* screen size for 767px */
 
+@media only screen and (max-width: 767px) {
+    .second-menu {
+        background-color: rgb(254, 254, 254);
+        padding: 10px 20px 20px 120px;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+        font-size: 12px;
+        z-index: 10;
+        height: 50px;
+        display: block;
+    }
+    .nav-2 {
+        display: none;
+    }
+    .logo-top1 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 106px;
+        background-color: #f42;
+        background: linear-gradient(to bottom right, #c09, #f42 85%);
+        text-align: center;
+        z-index: 10;
+    }
+    .logo-top1 img {
+        width: 70px;
+        height: 55px;
+        padding: 10px 0 10px 0;
+        z-index: 9;
+        vertical-align: middle;
+    }
+    .search-icon1 {
+        float: right;
+        height: 50px;
+    }
+    .search-icon1 img {
+        padding-left: 20px;
+        border-left: 1px solid lightgray;
+        padding-right: 20px;
+    }
+    .nav-3 {
+        text-align: center;
+        padding-left: 0;
+    }
+}
