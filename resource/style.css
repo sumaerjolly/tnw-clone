@@ -69,6 +69,10 @@
     color: gray;
 }
 
+.search-icon{
+    display: none;
+}
+
 .nav-2-right button {
     padding: 5px 10px;
     border-radius: 5px;
@@ -650,3 +654,19 @@
 .second-footer a img {
     vertical-align: middle;
 }
+
+/* Media Query for 1200px */
+@media only screen and (max-width: 1200px){
+    .nav-2-right {
+        display: none;
+    }
+    .search-icon{
+        display: inline;
+        float: right;
+        border-left: 1px solid lightgray;
+        padding-left: 20px;
+    }
+    
+
+}
+
